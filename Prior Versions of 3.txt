@@ -1,0 +1,38 @@
+# This is to solve Euler problem 3
+
+import random
+
+# This part is to list all the factors of 600851475143
+# removing factors of 2, 3, 5
+
+rnd1 = []
+a = 6851475143
+
+while a <= 600851475143: # Change this value later
+
+    
+
+    if a == 1:
+        a = a + 1
+
+    elif 600851475143/a == int(600851475143/a):
+        rnd1.append(a)
+
+    elif a/2 == int(a/2):
+        a = a + 1
+        
+
+    elif a/3 == int(a/3):
+        a = a + 1
+
+    elif a/5 == int(a/5):
+        a = a + 1
+
+    else:
+        rnd1.append(a)
+        a = a + 1
+
+print(rnd1)
+    
+
+
