@@ -29,7 +29,7 @@ sqrtTARGET = int(sqrtTARGET)
 
 # Now for the sieve
 
-factor = 0
+factor = 1
 multiple = 3
 
 while possList[factor] < sqrtTARGET:
