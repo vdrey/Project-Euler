@@ -25,3 +25,11 @@ import math
 
 sqrtTARGET = math.sqrt(TARGET)
 sqrtTARGET = int(sqrtTARGET)
+
+
+# The sieve
+
+# a is the term in the possList
+# m is what a is being multiplied by
+
+a=1
