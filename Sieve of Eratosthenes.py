@@ -15,6 +15,10 @@ while termR1 < TARGET:
     termR1 = termR1 + 2
     possList.append(a)
 
+print(possList)
+print()
+print('You must press enter to continue')
+input()
 
 # This calculates the square root of the TARGET
 
@@ -31,13 +35,7 @@ multiple = 3
 while possList[factor] < sqrtTARGET:
 
     
-
-    if (possList[factor] * multiple)/3 == int((possList[factor] * multiple)/3): #optomize to remove this block
-        possList.remove(possList[factor] * multiple)
-        multiple = multiple + 1
-        factor = factor + 1
-
-    elif possList[factor] * multiple < TARGET:
+    if possList[factor] * multiple < TARGET:
         possList.remove(possList[factor] * multiple)
         multiple = multiple + 1
         factor = factor + 1
