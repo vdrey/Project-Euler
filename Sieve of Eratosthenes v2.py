@@ -30,6 +30,8 @@ sqrtTARGET = int(sqrtTARGET)
 # The sieve
 
 # a is the term in the possList
+# Primes is the list of primes
 # m is what a is being multiplied by
 
-a=1
+a = 1
+primes = [2,3]
