@@ -18,3 +18,10 @@ print(possList)
 print()
 print('You must press enter to continue')
 input()
+
+# This calculates the square root of the TARGET
+
+import math
+
+sqrtTARGET = math.sqrt(TARGET)
+sqrtTARGET = int(sqrtTARGET)
