@@ -11,10 +11,9 @@ possList = [2,3]
 
 while termR1 < TARGET:
 
-    a = termR1
+    possList.append(termR1)
     termR1 = termR1 + 2
-    possList.append(a)
-
+    
 print(possList)
 print()
 print('You must press enter to continue')
