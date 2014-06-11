@@ -6,8 +6,8 @@ print('Enter your target value. (Must be greater than 24)')
 TARGET = input()
 TARGET = int(TARGET)
 
-termR1 = 23
-possList = [2,3,5,7,11,13,17,19]
+termR1 = 5
+possList = [2,3]
 
 while termR1 < TARGET:
 
