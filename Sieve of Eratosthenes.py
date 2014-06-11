@@ -26,20 +26,25 @@ sqrtTARGET = int(sqrtTARGET)
 # Now for the sieve
 
 factor = 0
+multiple = 3
 
 while possList[factor] < sqrtTARGET:
 
-    multiple = 2
+    
 
-    if (possList[factor] * multiple)/2 == int((possList[factor] * multiple)/2): #optomize to remove this block
+    if (possList[factor] * multiple)/3 == int((possList[factor] * multiple)/3): #optomize to remove this block
         possList.remove(possList[factor] * multiple)
+        multiple = multiple + 1
         factor = factor + 1
 
     elif possList[factor] * multiple < TARGET:
         possList.remove(possList[factor] * multiple)
+        multiple = multiple + 1
         factor = factor + 1
 
     else:
+        multiple = 3
+        factor = 0
         break
 
 print(possList)
