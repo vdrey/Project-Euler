@@ -19,12 +19,12 @@ print()
 print('You must press enter to continue')
 input()
 
-# This calculates the square root of the TARGET
+'''# This calculates the square root of the TARGET
 
 import math
 
 sqrtTARGET = math.sqrt(TARGET)
-sqrtTARGET = int(sqrtTARGET)
+sqrtTARGET = int(sqrtTARGET)'''
 
 
 # The sieve
@@ -35,3 +35,7 @@ sqrtTARGET = int(sqrtTARGET)
 
 a = 1
 primes = [2,3]
+
+while possList[a] < TARGET:
+
+    b = posslist[a]
