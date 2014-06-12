@@ -30,12 +30,20 @@ sqrtTARGET = int(sqrtTARGET)'''
 # The sieve
 
 # a is the term in the possList
+# b is the int(value) of a
+# c is the term in the primes
+# d is the int(value) of c
 # Primes is the list of primes
 # m is what a is being multiplied by
 
 a = 1
+c = 1
 primes = [2,3]
 
-while possList[a] < TARGET:
+
+while c < len(primes) and a < len(possList):
 
     b = posslist[a]
+    d = primes[c]
+
+
