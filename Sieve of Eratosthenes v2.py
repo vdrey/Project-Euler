@@ -36,20 +36,35 @@ sqrtTARGET = int(sqrtTARGET)'''
 # Primes is the list of primes
 # m is what a is being multiplied by
 
-a = 1
-c = 1
-primes = [2,3]
+a = 2
+primes = [2,3,5]
 
 
 while a < len(possList):
 
-    b = posslist[a]
+    a = a + 1
+    c = 1
+
+    b = possList[a]
     d = primes[c]
 
-    while c < len(primes):
+    while c < len(primes) - 1:
 
         if b/d == int(b/d):
             break
 
         else:
+            c = c + 1
+
+    while c == len(primes) - 1:
+
+        if b/d == int(b/d):
+            break
+
+        else:
+            primes.append(d)
+            break
+
+
+print(primes)
             
