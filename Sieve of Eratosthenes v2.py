@@ -41,9 +41,15 @@ c = 1
 primes = [2,3]
 
 
-while c < len(primes) and a < len(possList):
+while a < len(possList):
 
     b = posslist[a]
     d = primes[c]
 
+    while c < len(primes):
 
+        if b/d == int(b/d):
+            break
+
+        else:
+            
