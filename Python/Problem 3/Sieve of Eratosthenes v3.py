@@ -19,10 +19,14 @@ def primeCheck(possTerm):
 
     for term in possList:
 
-        if  possTerm/term == int(possTerm/term):
+        if possList.index(term) == len(possList) - 1 and possTerm/term != int(possTerm/term):
+            return True
+
+        elif  possList.index(term) == len(possList) - 1 and possTerm/term == int(possTerm/term):
             return False
 
         else:
+            return None
 
 # This is using a while loop
 ''' 
@@ -41,7 +45,7 @@ def primeCheck(possTerm):
 
 a = 0
 
-while possTerm > int(TARGET/460) and possTerm < int(Target/450):
+while possTerm > int(TARGET/460) and possTerm < int(TARGET/450):
 
 
     if factCheck(possTerm) == True and primeCheck(possTerm) == True:
