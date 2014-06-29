@@ -4,7 +4,7 @@ print('Enter your target value. (Must be greater than 20)')
 TARGET = input()
 TARGET = int(TARGET)
 
-possTerm = 5
+possTerm = int(TARGET/460) + 1
 possList = [3]
 
 # Def section
@@ -29,7 +29,7 @@ def primeCheck(possTerm):
 
 a = 0
 
-while possTerm < Target:
+while possTerm > int(TARGET/460) and possTerm < int(Target/450):
 
 
     if factCheck(possTerm) == True and primeCheck == True:
