@@ -1,6 +1,6 @@
 # Sieve version 3
 
-print('Enter your target value. (Must be greater than 20)')
+print('Enter your target value. (Must be greater than 500)')
 TARGET = input()
 TARGET = int(TARGET)
 
@@ -16,6 +16,17 @@ def factCheck(possTerm):
         return False
 
 def primeCheck(possTerm):
+
+    for term in possList:
+
+        if  possTerm/term == int(possTerm/term):
+            return False
+
+        else:
+
+# This is using a while loop
+''' 
+def primeCheck(possTerm):
     b = -1
     while b < len(possList)-1: #This should check all but the last known prime
         b = b + 1
@@ -24,6 +35,7 @@ def primeCheck(possTerm):
             return False
         
         elif possTerm/possList[b] != int(possTerm/possList[b]):
+'''
 
 # This time, the list will be generated while checking primality and if it is a factor or not all at the same time
 
@@ -32,8 +44,9 @@ a = 0
 while possTerm > int(TARGET/460) and possTerm < int(Target/450):
 
 
-    if factCheck(possTerm) == True and primeCheck == True:
+    if factCheck(possTerm) == True and primeCheck(possTerm) == True:
         print(possTerm)
+        possList.append(possTerm)
         possTerm = possTerm + (2 * a)
         a = a + 1
 
