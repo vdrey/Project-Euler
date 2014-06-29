@@ -13,8 +13,9 @@ while termR1 < TARGET:
 
     possList.append(termR1)
     termR1 = termR1 + 2
+    print(possList[len(possList)-1])
     
-print(possList)
+print(len(possList))
 print()
 print('You must press enter to continue')
 input()
