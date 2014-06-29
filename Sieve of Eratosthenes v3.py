@@ -3,7 +3,7 @@
 print('Enter your target value. (Must be greater than 20)')
 TARGET = input()
 TARGET = int(TARGET)
-possTerm = 3
+possTerm = 5
 
 # Def section
 
@@ -13,10 +13,13 @@ def factCheck(possTerm):
     else:
         return False
 
+def primeCheck(possTerm):
+    
+
 # This time, the list will be generated while checking primality and if it is a factor or not all at the same time
 
 
-primeFactors = []
+possList = [3]
 a = 0
 
 while possTerm < Target:
@@ -24,5 +27,6 @@ while possTerm < Target:
     possTerm = possTerm + (2 * a)
     a = a + 1
 
-    if factCheck(possTerm) == True:
+    if factCheck(possTerm) == True and primeCheck == True:
+        print(possTerm)
         
