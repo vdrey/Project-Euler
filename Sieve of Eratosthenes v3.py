@@ -10,7 +10,7 @@ possList = [3]
 # Def section
 
 def factCheck(possTerm):
-    if Target/possTerm == int(Target/possTerm):
+    if TARGET/possTerm == int(TARGET/possTerm):
         return True
     else:
         return False
