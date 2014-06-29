@@ -6,4 +6,7 @@ This is simply a way for me to store the code I used to solve the problems, all 
 
 DO NOT USE THIS CODE FOR PROJECT EULER!
 
+
 Using this code defeats the purpose, as you wouldn't have learned anything.
+
+However, if you happen to stumble across this, if you have any helpful contributions to make, feel free to do so.
