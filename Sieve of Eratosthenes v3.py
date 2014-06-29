@@ -23,6 +23,7 @@ def primeCheck(possTerm):
         if possTerm/possList[b] == int(possTerm/possList[b]):
             return False
         
+        elif possTerm/possList[b] != int(possTerm/possList[b]):
 
 # This time, the list will be generated while checking primality and if it is a factor or not all at the same time
 
@@ -30,9 +31,13 @@ a = 0
 
 while possTerm < Target:
 
-    possTerm = possTerm + (2 * a)
-    a = a + 1
 
     if factCheck(possTerm) == True and primeCheck == True:
         print(possTerm)
+        possTerm = possTerm + (2 * a)
+        a = a + 1
+
+    else:
+        possTerm = possTerm + (2 * a)
+        a = a + 1
         
