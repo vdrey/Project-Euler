@@ -1,11 +1,11 @@
 # First attempt at problem 5
 
 import math
-testNum = math.factorial(20) - (2520 * 11)
+testNum = 12252240
 
 def factorCheck(num):
 
-    factorList = [11,12,13,14,15,16,17,18,19,20]
+    factorList = [18,19,20] #[11,12,13,14,15,16,17,18,19,20]
     score = 0
 
     for term in factorList:
@@ -16,7 +16,7 @@ def factorCheck(num):
         else:
             break
 
-    if score == 10:
+    if score == 3:
         return True
 
     else:
@@ -25,7 +25,7 @@ def factorCheck(num):
 
 #Now use the definition
 
-while testNum > 2000000:
+while testNum < 20000000000000000000:
 
     print(testNum)
 
@@ -34,7 +34,7 @@ while testNum > 2000000:
         break
 
     else:
-        testNum = testNum - (2520 * 11)
+        testNum = testNum + 12252240
         
 
 print(answer)
