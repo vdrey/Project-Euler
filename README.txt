@@ -16,4 +16,5 @@ However, if you happen to stumble across this, if you have any helpful contribut
 
 COMPATIBILITY:
 
-	Unless otherwise noted, all python files were written to work with the 3.4.1 release of python.
+	Unless otherwise noted, all python files were written 
+	to work with the 3.4.1 release of python.
