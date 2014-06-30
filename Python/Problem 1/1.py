@@ -1,6 +1,5 @@
 # find the sum of all natural-number multiples of 3 or 5 below 1000
 
-import time
 
 #sum of multiples of 3
 
