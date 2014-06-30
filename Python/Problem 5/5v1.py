@@ -1,11 +1,14 @@
 # First attempt at problem 5
 
 import math
-testNum = 12252240
+testNum = 2520
+index = 0
+answers = [2520]
 
 def factorCheck(num):
 
-    factorList = [18,19,20] #[11,12,13,14,15,16,17,18,19,20]
+    indexCheck = 0
+    factorList = [11,12,13,14,15,16,17,18,19,20]
     score = 0
 
     for term in factorList:
@@ -16,7 +19,8 @@ def factorCheck(num):
         else:
             break
 
-    if score == 3:
+    if score == (indexCheck + 1):
+        indexCheck = indexCheck + 1
         return True
 
     else:
@@ -25,16 +29,16 @@ def factorCheck(num):
 
 #Now use the definition
 
-while testNum < 20000000000000000000:
+while testNum < 20000000000000000000 and index <= 10:
 
-    print(testNum)
+    print(str(answers) + ' ' + str(testNum))
 
     if factorCheck(testNum) == True:
-        answer = testNum
-        break
+        index = index + 1
+        answers.append(testNum)
 
     else:
-        testNum = testNum + 12252240
+        testNum = testNum + answers[len(answers) -1]
         
 
-print(answer)
+print(answers)
