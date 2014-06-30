@@ -1,6 +1,6 @@
 # First attempt at problem 5
 
-testNum = 2520
+testNum = 2000000
 
 def factorCheck(num):
 
@@ -9,7 +9,7 @@ def factorCheck(num):
 
     for term in factorList:
 
-        if testNum % term == 0:
+        if num % term == 0:
             score = score + 1
 
         else:
@@ -23,3 +23,17 @@ def factorCheck(num):
 
 
 #Now use the definition
+
+while testNum < 1234567890:
+
+    print(testNum)
+
+    if factorCheck(testNum) == True:
+        answer = testNum
+        break
+
+    else:
+        testNum = testNum + 20
+        
+
+print(answer)
