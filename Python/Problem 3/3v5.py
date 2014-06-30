@@ -8,3 +8,5 @@ while i * i < n:
         n = n / i
 
     i = i + 1
+
+print(n)
