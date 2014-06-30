@@ -1,10 +1,16 @@
 This is a guide to which programs worked to solve their respective problems.
 
 ---Problem 1---
+1.py
 ---Problem 2---
+2.py
 ---Problem 3---
+3v5.py
 ---Problem 4---
+4v1.py
 ---Problem 5---
+5v1.py
 ---Problem 6---
+6v2.py
 ---Problem 7---
 ---Problem 8---
