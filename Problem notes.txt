@@ -11,9 +11,16 @@ Solved
 ---Problem 6---
 Solved
 ---Problem 7---
+In progress
 ---Problem 8---
+Shouldn't be too difficult.
+Still need to learn how to slice an integer.
 ---Problem 9---
+Would be challenging, but I should be able to figure it out.
+Look into dictionaries with 3 terms.
 ---Problem 10---
+Easy if I can get a sieve to work.
+Look at the solution to Problem 3.
 ******************************************
 ---Problem 11---
 ---Problem 12---
