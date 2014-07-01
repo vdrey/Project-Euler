@@ -17,6 +17,8 @@ while len(pList) < 10:
     if primes(currTerm) == True:
         pList.append(currTerm)
         currTerm = currTerm + 1
+        print(pList)
 
     else:
         currTerm = currTerm + 1
+print(pList)
