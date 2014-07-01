@@ -1,6 +1,5 @@
 # this is to solve project Euler problem 2
 
-import time
 
 print('Press enter.')
 #input()
@@ -40,5 +39,5 @@ while z <= 4000000:
 
 
 print('And the sum of the terms is....')
-time.sleep(1)
+
 print(sum(evenTerms))
