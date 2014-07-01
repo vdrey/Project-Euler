@@ -108,4 +108,4 @@ print(total)
 print()
 
 
-print(str(total)[:51])
+print(str(total)[:11])
