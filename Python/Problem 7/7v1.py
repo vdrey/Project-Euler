@@ -8,19 +8,20 @@ primes = [2,3,5,7,11,13,17,19,23,29]
 
 while len(primes) < 10000:
 
-    print(len(primes))
+    
     currLength = len(primes)
 
     for term in primes:
+        a = term
 
-        if trial % term == 0:
+        if trial / term == 0:
             trial = trial + 1
             break
 
-        elif primes.index(term) == (len(primes) - 1) and trial % term != 0:
+        elif primes.index(a) == (len(primes) - 1) and trial / term != 0:
             primes.append(trial)
             trial = trial + 1
-            
+            print(primes[len(primes)-1])
 
         else:
             insif = insif + 1
