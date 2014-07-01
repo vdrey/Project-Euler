@@ -36,10 +36,15 @@ I have no idea how to do this.
 ---Problem 16---
 Shouldn't be too difficult.
 ---Problem 17---
-
+I don't have a clue.
 ---Problem 18---
+Nope.
 ---Problem 19---
+This one is tough but I think I can do it.
+I have to seperate out the leap years and the non-leap years.
+(I think)
 ---Problem 20---
+Shouldn't be too difficult.
 *******************************************
 ---Problem 21---
 ---Problem 22---
