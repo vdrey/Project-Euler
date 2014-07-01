@@ -24,4 +24,8 @@ while len(str(terms[len(terms)-1])) < 1000:
         x = b
         print(len(str(terms[len(terms)-1])))
 
+
+print()
 print(terms[len(terms)-1])
+print()
+print(len(terms))
