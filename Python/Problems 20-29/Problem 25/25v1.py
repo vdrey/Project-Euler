@@ -22,6 +22,6 @@ while len(str(terms[len(terms)-1])) < 1000:
         z = b + c
         y = b + a
         x = b
-        print(terms[len(terms)-1])
+        print(len(str(terms[len(terms)-1])))
 
 print(terms[len(terms)-1])
