@@ -47,7 +47,10 @@ I have to seperate out the leap years and the non-leap years.
 Shouldn't be too difficult.
 *******************************************
 ---Problem 21---
+I don't really even know what this means.
 ---Problem 22---
+Difficult, but seems possible.
+Need to learn how to access a file.
 ---Problem 23---
 ---Problem 24---
 ---Problem 25---
