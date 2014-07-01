@@ -1,2 +1,0 @@
-#7--Use the Sieve of Eratosthenes
-#10--Use the Sieve of Eratosthenes
