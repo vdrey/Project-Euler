@@ -16,6 +16,7 @@ while len(primes) < 10000:
         elif primes.index(term) == (len(primes) - 1) and trial % term != 0:
             primes.append(trial)
             trial = trial + 1
+            print(len(primes))
 
         else:
             insif = insif + 1
