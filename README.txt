@@ -1,3 +1,10 @@
+TERMS OF USE:
+	Please refer to License.txt for the exact Terms of use.
+	
+	A general summary has been provided below.
+
+
+
 NOTICE:
 
 This code is not intended for solving Project Euler problems.
