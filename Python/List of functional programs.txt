@@ -12,7 +12,3 @@ This is a guide to which programs worked to solve their respective problems.
 5v1.py
 ---Problem 6---
 6v2.py
----Problem 7---
-Unsolved
----Problem 8---
-Unsolved
