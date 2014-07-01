@@ -23,13 +23,20 @@ Easy if I can get a sieve to work.
 Look at the solution to Problem 3.
 ******************************************
 ---Problem 11---
+Might be possible by assigning one list per row or column.
+Probably quite difficult with my current skills.
 ---Problem 12---
+Quite difficult with my current skills.
 ---Problem 13---
 In progress
 ---Problem 14---
+Shouldn't be too difficult.
 ---Problem 15---
+I have no idea how to do this.
 ---Problem 16---
+Shouldn't be too difficult.
 ---Problem 17---
+
 ---Problem 18---
 ---Problem 19---
 ---Problem 20---
