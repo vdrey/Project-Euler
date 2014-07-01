@@ -12,16 +12,16 @@ while len(primes) < 10000:
     currLength = len(primes)
 
     for term in primes:
-        a = term
+        
 
         if trial / term == 0:
             trial = trial + 1
             break
 
-        elif primes.index(a) == (len(primes) - 1) and trial / term != 0:
+        elif primes.index(term) == (len(primes) - 1) and trial / term != 0:
             primes.append(trial)
             trial = trial + 1
-            print(primes[len(primes)-1])
+            print(len(primes)-1)
 
         else:
             insif = insif + 1
