@@ -25,3 +25,9 @@ COMPATIBILITY:
 
 	Unless otherwise noted, all python files were written 
 	to work with the 3.4.1 release of python.
+
+
+WHICH PROBLEMS WORK?
+	
+	For python, refer to /python/List of functional programs.txt for complete list of which programs solve
+	their respective project euler problems.
