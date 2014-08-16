@@ -1,5 +1,5 @@
 # Problem 8v1
-from numpy import prod
+import operator
 
 # Generate list of digits
 
@@ -7,15 +7,15 @@ digs = [ int(i) for i in str(731671765313306249192251196744265747423553491949349
 
 # vars
 
-greatestProd = o
+greatestProd = 0
 
 currDig = 0
 
-while currdig <= 988:
+while currDig <= 988:
 
     currList = [digs[int(currdig):int(currdig+12)]]
 
-    currProd = prod(currList)
+    currProd = reduce(operator.mul, currList, 1)
 
     if currProd > greatestProd:
 
