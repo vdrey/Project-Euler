@@ -1,5 +1,6 @@
 # Problem 8v1
 import operator
+from functools import reduce
 
 # Generate list of digits
 
@@ -13,7 +14,7 @@ currDig = 0
 
 while currDig <= 988:
 
-    currList = [digs[int(currdig):int(currdig+12)]]
+    currList = [digs[int(currDig):int(currDig+12)]]
 
     currProd = reduce(operator.mul, currList, 1)
 
