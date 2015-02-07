@@ -20,7 +20,7 @@ Using this code defeats the purpose, as you wouldn't have learned anything.
 However, if you happen to stumble across this, if you have any helpful contributions to make, feel free to do so.
 
 
-~~~~~~~Other Notes~~~~~~~~
+--------Other Notes--------
 
 COMPATIBILITY:
 
