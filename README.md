@@ -31,4 +31,4 @@ COMPATIBILITY:
 WHICH PROBLEMS WORK?
 	
 	For python, refer to /python/List of functional programs.txt for complete 
-	list of which programs solve their respective project euler problems.
+	list of which programs solve their respective Project Euler problems.
