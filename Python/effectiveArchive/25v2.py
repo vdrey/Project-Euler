@@ -1,7 +1,5 @@
 # 2nd attempt at Proj. Euler #25
 
-import pyperclip
-
 def nextFib(n1, n2): # n1 is the Nth-1 term and n2 is the Nth-2 term
     n = n1 + n2 
     return(n) # n is the Nth term
