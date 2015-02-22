@@ -12,8 +12,7 @@ all copies or portions of the Software of any size.
 
 
 RESTRICTIONS:
-  1) The software may not be used to generate the answers to problems hosted on projecteuler.net
-  or any of its copies or translations.
+  1) The software may not be used to generate the answers to problems hosted on projecteuler.net or any of its copies or translations.
   
 
 
