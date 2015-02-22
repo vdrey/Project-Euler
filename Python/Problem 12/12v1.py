@@ -15,9 +15,9 @@ def nextTri(currentTerm, currentInt): # This works
     nextTerm = currentTerm + n
     return nextTerm
 
-term = 2031120
-counter = 2015
-while getNumDivisors(term) <= 260:
+term = 2162160
+counter = 2079
+while getNumDivisors(term) <= 360:
     term = nextTri(term, counter)
     counter += 1
     
