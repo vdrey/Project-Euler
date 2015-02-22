@@ -21,7 +21,7 @@ def getNumDivisors(num): # This works
                 divs.append(num // i)
     return len(divs)
 
-# print(getNumDivisors(2800))
+#print(getNumDivisors(0))
 
 def nextTri(currentTerm, currentInt): # This works
     n = currentInt + 1
@@ -34,4 +34,3 @@ while r < 100:
     print(nextTri(term, r))
     term = nextTri(term, r)
     r += 1
-
