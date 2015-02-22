@@ -22,3 +22,16 @@ def getNumDivisors(num): # This works
     return len(divs)
 
 # print(getNumDivisors(2800))
+
+def nextTri(currentTerm, currentInt): # This works
+    n = currentInt + 1
+    nextTerm = currentTerm + n
+    return nextTerm
+
+r = 0
+term = 0
+while r < 100:
+    print(nextTri(term, r))
+    term = nextTri(term, r)
+    r += 1
+
